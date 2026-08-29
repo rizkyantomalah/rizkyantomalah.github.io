@@ -1,198 +1,673 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Academic portfolio of Rizkyanto Malah - Electrical Engineering, Power Systems, Renewable Energy, IoT and Automation." />
-  <title>Rizkyanto Malah | Electrical Engineering</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:wght@500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Profil Rizkyanto Malah - Teknik Elektro">
+
+    <title>Rizkyanto Malah | Profil</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="topbar">
-    <a class="brand" href="#home">RM</a>
-    <button class="menu-btn" aria-label="Toggle navigation" onclick="toggleMenu()">☰</button>
-    <nav id="nav">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#education">Education</a>
-      <a href="#projects">Projects</a>
-      <a href="#skills">Skills</a>
-      <a href="#publications">Publications</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="home" class="hero section">
-      <div class="hero-copy">
-        <p class="eyebrow">Electrical Engineering Portfolio</p>
+
+<!-- ======================================================
+                     SIDEBAR
+====================================================== -->
+
+<aside class="sidebar">
+
+    <div class="profile">
+
+        <div class="photo-wrap">
+
+            <div class="photo-placeholder">
+                RM
+            </div>
+
+            <!--
+            Jika nanti ingin menggunakan foto:
+
+            <img
+                src="profile.jpg"
+                alt="Rizkyanto Malah"
+                class="profile-photo"
+            >
+            -->
+
+        </div>
+
+
         <h1>Rizkyanto Malah</h1>
-        <p class="lead">
-          Electrical Engineering graduate focused on power systems, renewable energy,
-          battery protection, industrial automation, and Internet of Things.
+
+        <p class="role">
+            Teknik Elektro
         </p>
-        <div class="hero-actions">
-          <a class="btn primary" href="#projects">View Projects</a>
-          <a class="btn ghost" href="https://github.com/rizkyantomalah" target="_blank" rel="noopener">GitHub Profile</a>
+
+        <p class="institution">
+            Politeknik Negeri Manado
+        </p>
+
+
+        <div class="social">
+
+            <a
+                href="https://github.com/rizkyantomalah"
+                target="_blank">
+                GitHub
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/rizkyantomalah"
+                target="_blank">
+                LinkedIn
+            </a>
+
+            <a
+                href="https://rizkyantomalah12.blogspot.com/?m=1"
+                target="_blank">
+                Blogger
+            </a>
+
         </div>
-      </div>
-      <div class="profile-card">
-        <div class="avatar">RM</div>
-        <h2>Rizkyanto Malah</h2>
-        <p>Electrical Engineering</p>
-        <div class="mini-line"></div>
-        <span>Power Systems · Renewable Energy · IoT · Automation</span>
-      </div>
-    </section>
 
-    <section id="about" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Profile</p>
-        <h2>About Me</h2>
-      </div>
-      <div class="prose card">
-        <p>
-          I am a graduate of the Applied Bachelor of Electrical Engineering program at
-          Manado State Polytechnic. My academic interests include electrical power systems,
-          renewable energy, battery protection, load shedding, PLC-based automation, ESP32,
-          and IoT monitoring.
+    </div>
+
+
+    <!-- MENU -->
+
+    <nav>
+
+        <a href="#tentang" class="active">
+            Tentang Saya
+        </a>
+
+        <a href="#pendidikan">
+            Pendidikan
+        </a>
+
+        <a href="#proyek">
+            Proyek
+        </a>
+
+        <a href="#kontak">
+            Kontak
+        </a>
+
+    </nav>
+
+
+    <div class="sidebar-footer">
+
+        <span>Teknik Elektro</span>
+
+        <span>ESP32</span>
+
+        <span>IoT</span>
+
+        <span>Sistem Proteksi</span>
+
+    </div>
+
+</aside>
+
+
+
+<!-- ======================================================
+                     KONTEN UTAMA
+====================================================== -->
+
+<main class="content">
+
+
+<!-- ======================================================
+                  TENTANG SAYA
+====================================================== -->
+
+<section id="tentang" class="section hero">
+
+
+    <!-- SELAMAT DATANG -->
+
+    <div class="welcome-wrapper">
+
+        <p class="welcome-text">
+            SELAMAT DATANG
         </p>
-        <p>
-          I enjoy developing practical engineering systems that combine power electronics,
-          protection, control, sensing, and digital monitoring. My recent work has focused on
-          battery protection for hybrid renewable-energy systems and IoT-based monitoring of
-          electrical protection systems.
-        </p>
-      </div>
-    </section>
 
-    <section id="education" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Academic Background</p>
-        <h2>Education</h2>
-      </div>
-      <div class="timeline">
-        <article class="timeline-item card">
-          <span class="year">2022–2026</span>
-          <h3>Applied Bachelor of Electrical Engineering</h3>
-          <p class="muted">Manado State Polytechnic, Indonesia</p>
-          <p>
-            Focus areas: electrical power systems, power electronics, transmission and
-            distribution, protection systems, PLC & SCADA, control systems, and renewable energy.
-          </p>
-        </article>
-      </div>
-    </section>
+    </div>
 
-    <section id="projects" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Engineering Work</p>
-        <h2>Selected Projects</h2>
-      </div>
 
-      <div class="grid">
-        <article class="project card">
-          <span class="tag">Battery Protection</span>
-          <h3>Load-Shedding Battery Protection for a Hybrid PLTS–PLTB System</h3>
-          <p>
-            Designed an ESP32-based battery protection system using staged load shedding,
-            voltage monitoring, relay control, and real-time IoT monitoring.
-          </p>
-          <div class="tech">ESP32 · PZEM-017 · Modbus RTU · RS485 · Blynk · Relay</div>
-        </article>
+    <!-- NAMA -->
 
-        <article class="project card">
-          <span class="tag">Industrial Automation</span>
-          <h3>Overvoltage & Undervoltage Protection with PLC and HMI</h3>
-          <p>
-            Developed a protection and educational platform integrating an Omron PLC,
-            Haiwell HMI, voltage sensing, trip logic, alarms, and monitoring.
-          </p>
-          <div class="tech">Omron PLC · HMI · Protection Logic · Industrial Control</div>
-        </article>
+    <h2 class="jelly-name">
+        Rizkyanto Malah
+    </h2>
 
-        <article class="project card">
-          <span class="tag">IoT Monitoring</span>
-          <h3>Blynk-Based Electrical Protection Monitoring</h3>
-          <p>
-            Designed an IoT dashboard for monitoring voltage, protection thresholds,
-            operating status, and trip conditions in an electrical protection system.
-          </p>
-          <div class="tech">Blynk · ESP32 · IoT · Dashboard Design</div>
-        </article>
 
-        <article class="project card">
-          <span class="tag">Research Development</span>
-          <h3>Hysteresis-Based Battery Protection Algorithm</h3>
-          <p>
-            Research development focused on reducing relay oscillation caused by battery
-            voltage recovery through separate trip and release thresholds.
-          </p>
-          <div class="tech">Hysteresis Control · Load Shedding · Battery SOC · ESP32</div>
-        </article>
-      </div>
-    </section>
+    <p class="headline">
 
-    <section id="skills" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Technical Areas</p>
-        <h2>Skills & Interests</h2>
-      </div>
-      <div class="skills-grid">
-        <div class="card skill"><strong>Power Systems</strong><span>Protection, transmission, distribution, load analysis</span></div>
-        <div class="card skill"><strong>Renewable Energy</strong><span>Solar PV, wind energy, hybrid systems, batteries</span></div>
-        <div class="card skill"><strong>Embedded Systems</strong><span>ESP32, Arduino IDE, sensors, relay control</span></div>
-        <div class="card skill"><strong>Industrial Automation</strong><span>PLC, HMI, SCADA concepts, control logic</span></div>
-        <div class="card skill"><strong>IoT</strong><span>Blynk, remote monitoring, data visualization</span></div>
-        <div class="card skill"><strong>Communication</strong><span>Modbus RTU, RS485, PLC-device integration</span></div>
-      </div>
-    </section>
+        Selamat datang di halaman profil saya.
+        Website ini berisi informasi singkat mengenai pendidikan,
+        proyek, dan beberapa hal yang pernah saya kerjakan
+        selama mempelajari bidang Teknik Elektro.
 
-    <section id="publications" class="section">
-      <div class="section-heading">
-        <p class="eyebrow">Academic Output</p>
-        <h2>Publications & Manuscripts</h2>
-      </div>
-      <div class="card publication">
-        <p class="muted">
-          Add your accepted or published journal articles here. Use the format:
-          authors, article title, journal/conference, year, DOI/link.
-        </p>
-        <p class="example">
-          <strong>Example:</strong> Rizkyanto Malah, et al. “Article Title.”
-          <em>Journal / Conference Name</em>, 2026.
-        </p>
-      </div>
-    </section>
+    </p>
 
-    <section id="contact" class="section contact">
-      <div class="section-heading">
-        <p class="eyebrow">Get in Touch</p>
-        <h2>Contact</h2>
-      </div>
-      <div class="contact-card card">
-        <p>
-          I welcome academic discussions, research collaboration, engineering projects,
-          and professional opportunities.
-        </p>
-        <div class="contact-links">
-          <a href="https://github.com/rizkyantomalah" target="_blank" rel="noopener">GitHub</a>
-          <a href="mailto:YOUR_EMAIL@example.com">Email</a>
-          <a href="#" title="Replace with your LinkedIn URL">LinkedIn</a>
-          <a href="#" title="Replace with your Google Scholar URL">Google Scholar</a>
+
+    <div class="intro-grid">
+
+
+        <div>
+
+            <h3>
+                Tentang Saya
+            </h3>
+
+            <p>
+
+                Saya Rizkyanto Malah, lulusan Program Studi
+                Sarjana Terapan Teknik Listrik, Jurusan Teknik Elektro,
+                Politeknik Negeri Manado.
+
+            </p>
+
+            <p>
+
+                Selama perkuliahan saya mempelajari berbagai hal
+                yang berkaitan dengan sistem tenaga listrik,
+                sistem proteksi, energi terbarukan, PLC,
+                mikrokontroler, dan Internet of Things.
+
+            </p>
+
+            <p>
+
+                Website ini saya buat sebagai tempat untuk
+                menampilkan profil dan beberapa proyek yang
+                pernah saya kerjakan.
+
+            </p>
+
         </div>
-        <p class="note">Replace the email and profile links above with your real links before publishing.</p>
-      </div>
-    </section>
-  </main>
 
-  <footer>
-    <p>© <span id="year"></span> Rizkyanto Malah. Built for GitHub Pages.</p>
-  </footer>
 
-  <script src="script.js"></script>
+
+        <div class="quick-info">
+
+
+            <div>
+
+                <span>
+                    Bidang
+                </span>
+
+                <strong>
+                    Teknik Elektro
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    Program Studi
+                </span>
+
+                <strong>
+                    Sarjana Terapan Teknik Listrik
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    Institusi
+                </span>
+
+                <strong>
+                    Politeknik Negeri Manado
+                </strong>
+
+            </div>
+
+
+            <div>
+
+                <span>
+                    Fokus
+                </span>
+
+                <strong>
+                    Sistem Proteksi, IoT dan Otomasi
+                </strong>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ======================================================
+                     PENDIDIKAN
+====================================================== -->
+
+<section id="pendidikan" class="section">
+
+
+    <div class="section-title">
+
+        <span>
+            01
+        </span>
+
+        <h2>
+            Pendidikan
+        </h2>
+
+    </div>
+
+
+    <div class="entry">
+
+
+        <div class="entry-year">
+
+            2022 — 2026
+
+        </div>
+
+
+        <div class="entry-body">
+
+
+            <h3>
+                Sarjana Terapan Teknik Listrik
+            </h3>
+
+
+            <p class="sub">
+                Politeknik Negeri Manado
+            </p>
+
+
+            <p>
+                Jurusan Teknik Elektro,
+                Program Studi Sarjana Terapan Teknik Listrik.
+            </p>
+
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ======================================================
+                         PROYEK
+====================================================== -->
+
+<section id="proyek" class="section">
+
+
+    <div class="section-title">
+
+        <span>
+            02
+        </span>
+
+        <h2>
+            Proyek
+        </h2>
+
+    </div>
+
+
+    <p class="section-note">
+
+        Beberapa proyek yang pernah saya kerjakan
+        selama kegiatan akademik dan pengembangan sistem.
+
+    </p>
+
+
+    <div class="project-list">
+
+
+        <!-- PROYEK 1 -->
+
+        <article>
+
+
+            <div class="project-number">
+                01
+            </div>
+
+
+            <div>
+
+
+                <h3>
+                    Sistem Proteksi Baterai Berbasis Load Shedding
+                </h3>
+
+
+                <p>
+
+                    Sistem proteksi baterai yang menggunakan
+                    ESP32 sebagai pengendali dengan metode
+                    pelepasan beban secara bertahap berdasarkan
+                    kondisi tegangan baterai. Sistem dilengkapi
+                    dengan pengukuran parameter listrik serta
+                    monitoring melalui platform Blynk.
+
+                </p>
+
+
+                <span class="stack">
+
+                    ESP32 · PZEM-017 · RS485 ·
+                    Modbus RTU · Blynk
+
+                </span>
+
+
+            </div>
+
+
+        </article>
+
+
+
+        <!-- PROYEK 2 -->
+
+        <article>
+
+
+            <div class="project-number">
+                02
+            </div>
+
+
+            <div>
+
+
+                <h3>
+                    Rancang Bangun Sistem Early Warning Kebakaran
+                </h3>
+
+
+                <p>
+
+                    Perancangan sistem peringatan dini kebakaran
+                    untuk mendeteksi kondisi yang berpotensi
+                    menyebabkan kebakaran dan memberikan
+                    peringatan kepada pengguna sebagai bentuk
+                    respons awal terhadap kondisi tersebut.
+
+                </p>
+
+
+                <span class="stack">
+
+                    Sistem Deteksi · Sensor ·
+                    Mikrokontroler · Early Warning
+
+                </span>
+
+
+            </div>
+
+
+        </article>
+
+
+
+        <!-- PROYEK 3 -->
+
+        <article>
+
+
+            <div class="project-number">
+                03
+            </div>
+
+
+            <div>
+
+
+                <h3>
+                    Sistem Proteksi Baterai Menggunakan LVD
+                    dan Relay DC Contactor
+                </h3>
+
+
+                <p>
+
+                    Sistem proteksi baterai menggunakan
+                    Low Voltage Disconnect (LVD) untuk
+                    memutus beban ketika tegangan baterai
+                    berada pada batas yang telah ditentukan.
+                    Sistem menggunakan relay DC contactor
+                    MZJ 100A dan timer analog sebagai bagian
+                    dari proses pengendalian beban.
+
+                </p>
+
+
+                <span class="stack">
+
+                    LVD · DC Contactor MZJ 100A ·
+                    Timer Analog · Proteksi Baterai
+
+                </span>
+
+
+            </div>
+
+
+        </article>
+
+
+
+        <!-- PROYEK 4 -->
+
+        <article>
+
+
+            <div class="project-number">
+                04
+            </div>
+
+
+            <div>
+
+
+                <h3>
+                    Desain Trainer Kit Sistem Proteksi Baterai
+                </h3>
+
+
+                <p>
+
+                    Perancangan trainer kit yang digunakan untuk
+                    membantu proses pengujian dan pembelajaran
+                    sistem proteksi baterai. Trainer kit dirancang
+                    agar komponen utama, sistem pengukuran,
+                    pengendali, dan rangkaian proteksi dapat
+                    diamati serta diuji secara langsung.
+
+                </p>
+
+
+                <span class="stack">
+
+                    Trainer Kit · Proteksi Baterai ·
+                    ESP32 · Sistem Pengukuran
+
+                </span>
+
+
+            </div>
+
+
+        </article>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ======================================================
+                        KONTAK
+====================================================== -->
+
+<section id="kontak" class="section contact-section">
+
+
+    <div class="section-title">
+
+        <span>
+            03
+        </span>
+
+        <h2>
+            Kontak
+        </h2>
+
+    </div>
+
+
+    <p>
+
+        Saya dapat dihubungi melalui beberapa
+        platform berikut.
+
+    </p>
+
+
+    <div class="contact-table">
+
+
+        <div>
+
+            <span>
+                Email
+            </span>
+
+            <a href="mailto:rizkyantomalah@gmail.com">
+
+                rizkyantomalah@gmail.com
+
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                LinkedIn
+            </span>
+
+            <a
+                href="https://www.linkedin.com/in/rizkyantomalah"
+                target="_blank">
+
+                linkedin.com/in/rizkyantomalah
+
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                Blogger
+            </span>
+
+            <a
+                href="https://rizkyantomalah12.blogspot.com/?m=1"
+                target="_blank">
+
+                rizkyantomalah12.blogspot.com
+
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <span>
+                GitHub
+            </span>
+
+            <a
+                href="https://github.com/rizkyantomalah"
+                target="_blank">
+
+                github.com/rizkyantomalah
+
+            </a>
+
+        </div>
+
+
+    </div>
+
+
+</section>
+
+
+
+<!-- ======================================================
+                        FOOTER
+====================================================== -->
+
+<footer>
+
+    © <span id="year"></span>
+    Rizkyanto Malah
+
+</footer>
+
+
+</main>
+
+
+<script src="script.js"></script>
+
 </body>
+
 </html>
